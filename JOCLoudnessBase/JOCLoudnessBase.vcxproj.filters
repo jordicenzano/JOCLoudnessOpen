@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="BaseClasses">
+      <UniqueIdentifier>{1facace6-7763-43e0-9ce9-0edff9976327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WAV">
+      <UniqueIdentifier>{5f35ef4b-7a0a-4173-9b57-d41c2673173c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Filters">
+      <UniqueIdentifier>{ce1a07a7-48a7-4957-b973-8340ea79c3a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LKFS">
+      <UniqueIdentifier>{0e6a3cd7-fff9-4a18-96cc-6d958ccd7da5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mean">
+      <UniqueIdentifier>{2ab9853f-5aaa-404a-8182-8628302e1135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Loud">
+      <UniqueIdentifier>{c55010c1-bf1b-430c-8d76-c5f2748a40f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TPLevel">
+      <UniqueIdentifier>{54fc7a13-e66e-4fe2-9b21-dadd84430d26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FastUpsampler">
+      <UniqueIdentifier>{e9686ecf-3596-445a-88a7-0ff7a5bea4a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseClasses\CjocCrono.h">
+      <Filter>BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseClasses\CjocException.h">
+      <Filter>BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseClasses\CjocIniConfig.h">
+      <Filter>BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseClasses\CjocLog.h">
+      <Filter>BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseClasses\CjocUtils.h">
+      <Filter>BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseClasses\jocCommonHeader.h">
+      <Filter>BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseClasses\jocErrorsHeader.h">
+      <Filter>BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="JOCLoudnessBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WAV\CjocWav.h">
+      <Filter>WAV</Filter>
+    </ClInclude>
+    <ClInclude Include="Filters\CjocFIRFilter.h">
+      <Filter>Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="Filters\CjocIIRFilter.h">
+      <Filter>Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="Filters\CjocPreFilter.h">
+      <Filter>Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="Filters\CjocRlbFilter.h">
+      <Filter>Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="Filters\CjocUpSampleFilter.h">
+      <Filter>Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="LKFS\CjocLKFS.h">
+      <Filter>LKFS</Filter>
+    </ClInclude>
+    <ClInclude Include="Mean\CjocMean.h">
+      <Filter>Mean</Filter>
+    </ClInclude>
+    <ClInclude Include="Mean\CjocMeanFast.h">
+      <Filter>Mean</Filter>
+    </ClInclude>
+    <ClInclude Include="Loud\CjocLoud.h">
+      <Filter>Loud</Filter>
+    </ClInclude>
+    <ClInclude Include="Loud\CjocLoudConfig.h">
+      <Filter>Loud</Filter>
+    </ClInclude>
+    <ClInclude Include="TPLevel\CjocTPLevel.h">
+      <Filter>TPLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="FastUpSampler\CjocFastUpsampler.h">
+      <Filter>FastUpsampler</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseClasses\CjocQueue.h">
+      <Filter>BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Loud\JocLoudnessConfig.h">
+      <Filter>Loud</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseClasses\CjocCrono.cpp">
+      <Filter>BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseClasses\CjocException.cpp">
+      <Filter>BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseClasses\CjocIniConfig.cpp">
+      <Filter>BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseClasses\CjocLog.cpp">
+      <Filter>BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseClasses\CjocUtils.cpp">
+      <Filter>BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="WAV\CjocWav.cpp">
+      <Filter>WAV</Filter>
+    </ClCompile>
+    <ClCompile Include="Filters\CjocFIRFilter.cpp">
+      <Filter>Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="Filters\CjocIIRFilter.cpp">
+      <Filter>Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="Filters\CjocPreFilter.cpp">
+      <Filter>Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="Filters\CjocRlbFilter.cpp">
+      <Filter>Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="Filters\CjocUpSampleFilter.cpp">
+      <Filter>Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="LKFS\CjocLKFS.cpp">
+      <Filter>LKFS</Filter>
+    </ClCompile>
+    <ClCompile Include="Mean\CjocMean.cpp">
+      <Filter>Mean</Filter>
+    </ClCompile>
+    <ClCompile Include="Mean\CjocMeanFast.cpp">
+      <Filter>Mean</Filter>
+    </ClCompile>
+    <ClCompile Include="Loud\CjocLoud.cpp">
+      <Filter>Loud</Filter>
+    </ClCompile>
+    <ClCompile Include="Loud\CjocLoudConfig.cpp">
+      <Filter>Loud</Filter>
+    </ClCompile>
+    <ClCompile Include="TPLevel\CjocTPLevel.cpp">
+      <Filter>TPLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="FastUpSampler\CjocFastUpsampler.cpp">
+      <Filter>FastUpsampler</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseClasses\CjocQueue.cpp">
+      <Filter>BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Loud\JocLoudnessConfig.cpp">
+      <Filter>Loud</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="versionRC.rc" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JOCLoudnessBase", "JOCLoudnessBase.vcxproj", "{20B59D1D-FBAB-4A11-B35C-E77390B35440}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JOCLoudness", "..\JOCLoudness\JOCLoudness.vcxproj", "{FACFE78F-1519-4102-A4E6-3C83853F22B4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{20B59D1D-FBAB-4A11-B35C-E77390B35440} = {20B59D1D-FBAB-4A11-B35C-E77390B35440}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20B59D1D-FBAB-4A11-B35C-E77390B35440}.Debug|Win32.ActiveCfg = Debug|Win32
+		{20B59D1D-FBAB-4A11-B35C-E77390B35440}.Debug|Win32.Build.0 = Debug|Win32
+		{20B59D1D-FBAB-4A11-B35C-E77390B35440}.Release|Win32.ActiveCfg = Release|Win32
+		{20B59D1D-FBAB-4A11-B35C-E77390B35440}.Release|Win32.Build.0 = Release|Win32
+		{FACFE78F-1519-4102-A4E6-3C83853F22B4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FACFE78F-1519-4102-A4E6-3C83853F22B4}.Debug|Win32.Build.0 = Debug|Win32
+		{FACFE78F-1519-4102-A4E6-3C83853F22B4}.Release|Win32.ActiveCfg = Release|Win32
+		{FACFE78F-1519-4102-A4E6-3C83853F22B4}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
