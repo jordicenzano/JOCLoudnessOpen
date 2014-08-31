@@ -15,5 +15,4 @@ Usage example:
 
 > JOCLoudness.exe "c:\audiotest\totest.wav" /tin:1.1 /tout:20 /outaudiofile:"c:\out\outpartialfile.wav" /config:configcustom.ini /outlouddata:"c:\dataloud\loud.txt" /logsfile:"c:\logsloud.log"
 
-More information on:
-www.jordicenzano.name\projects\loudness
+More information on: http://jordicenzano.name/front-test/tv-loudness-metering-072013/
